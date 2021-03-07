@@ -1,0 +1,163 @@
+body {
+      
+    color: slategrey;
+    font-family: 'Spartan', sans-serif;
+
+}
+.form-control {
+    color: slategrey;
+    background-color: transparent;
+    /*background-clip: padding-box;*/
+    border: none;
+    border-bottom: 1px solid slategrey;
+    border-radius: 0%;
+}
+.form-group {
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: transparent;
+
+}
+
+.nav-line {
+ top: 40px;
+ position: relative;
+    padding-top: 0px;
+}
+input[type="text"], textarea {
+
+    background-color : transparent; 
+    background-color: rgba(30,29,28,0);
+  }
+.logo {
+    cursor: pointer;
+    color: slategray;
+}
+.navbar {
+    font-family: 'Spartan', sans-serif;
+    font-weight: normal;
+    color: slategrey;
+margin-bottom: 10px;
+font-variant: small-caps;
+background-color: white;
+}
+.navbar-brand {
+    /* font-weight: 900; */
+    color: white;
+}
+.navbar-nav {
+    display: flex;
+}
+.header {
+    text-align: center; 
+    font-weight: bold; 
+    font-size: xx-large; 
+    padding: 20px;
+    font-weight: bold;
+
+}
+
+#form {
+    margin: 30px;
+    padding: 50px;
+    padding-top: 15%;
+    margin-bottom: 80px;
+    border-radius: 0px;
+    color: slategrey;
+    width: 70%;
+
+}
+.bio-content {
+    justify-content: center; 
+    margin: 20px;
+}
+.submit {
+    width: 100%;
+    background-color: lightgrey;
+    border-color: lightgrey;
+    color: slategrey;
+    text-transform: uppercase;
+}
+.submit:hover {
+    background-color: slategrey;
+    border-color: lightslategrey;
+
+}
+.submit:active {
+    background-color: lightgrey;
+}
+.submit:focus {
+    background-color: slategrey;
+    border-color: lightslategrey;
+
+}
+#header {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.card-body {
+    margin-top: -50px;
+    text-align: center;
+    border-radius: 10px;
+    color:slategray;
+}
+.card-link:hover {
+    background-color: white;
+    color: black;
+}
+  .contact-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.contact-title {
+    font-family: none;
+    top: 25px;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    letter-spacing: 17px;
+    color: slategrey;
+    text-shadow: 3px;
+}
+
+.whole-page {
+    background-image: url(./Assets/background/clouds.jpg); 
+    /* filter: grayscale(100%); */
+    background-size: 100%;
+    background-position-y: 38%;
+    background-repeat: no-repeat;
+    color: slategray;
+    /*filter: opacity(0);*/
+    /* filter: invert(1); */
+    /* filter: hue-rotate(.7); */
+    
+}
+.info {
+    margin: 30px;
+    margin-top: 0px;
+    padding: 50px;
+    max-width: 40%;
+    color: slategrey;
+    text-overflow: clip;
+
+}
+a {
+    color: white;
+}
+a:hover {
+    color: slategrey;
+}
+  .resume {
+      color: slategray;
+  }
+  .text-muted {
+      color: lightgrey!important;
+  }

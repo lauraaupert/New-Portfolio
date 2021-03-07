@@ -1,0 +1,124 @@
+.portfolio-title {
+  color: slategrey;
+  /* background-color: white; */
+  top: 25px;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+  letter-spacing: 17px;
+  /* position: absolute; */
+}
+
+.swipe-away {
+    /* background: #fff; */
+    font-family: 'Spartan', sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient( rgba(112, 128, 144, 0),rgba(112, 128, 144,1));
+
+  }
+  
+
+  .swiper-container {
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+  }
+  .top-container {
+    padding-top: 50px;
+    /*background-color: slategrey;*/
+    /* background-image: radial-gradient( rgba(112, 128, 144, 0),rgba(112, 128, 144,1)); */
+
+  }
+  .swiper-wrapper {
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    background-position: top;
+    width: 30%;
+    /* height: 100%; */
+    min-width: 400px;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    /*background-size: 100%;*/
+    color: slategrey;
+    /*color: grey;*/
+
+
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .top-slide {
+    filter: grayscale(100%);
+  }
+  .top-slide:hover {
+    /* filter: grayscale(0%); */
+    animation: color 2s 0s ease forwards;
+    /* animation-fill-mode: forwards; */
+  }
+  @keyframes color {
+     0% {
+      filter: grayscale(100%);
+      width: 30%
+    } 
+    100% {
+      filter: grayscale(0%);
+      width: 40%;
+      margin-left: -3%
+    }
+
+  }
+ .theinvisible {
+   width: 100%;
+ }
+  .acc-text {
+    padding-top: 0px;
+    margin-top: -40px;
+    /*width: 550px;*/
+    width: 80%;
+    overflow: hidden;
+  }
+  .bottom {
+    width: 100%;
+    border-radius: 4px;
+    height: auto;
+  }
+  .app-name {
+    font-weight: bolder;
+    font-variant: small-caps;
+    letter-spacing: 7px;
+  }
+  .swiper-pagination {
+    --swiper-theme-color: lightgrey;
+  }
+  .technology {
+    font-size: 24px;
+    text-align: center;
+  }
+  .description {
+    font-size: 20px;
+    text-align: center;
+  }
+  .deployed {
+    float: left;
+  }
+  .links {
+font-size: 18px;  }
