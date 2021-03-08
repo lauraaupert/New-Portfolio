@@ -2,6 +2,7 @@ body {
       
     color: slategrey;
     font-family: 'Spartan', sans-serif;
+    text-align: center;
 
 }
 .form-control {
@@ -129,10 +130,11 @@ background-color: white;
 }
 
 .whole-page {
-    background-image: url(./Assets/background/clouds.jpg); 
+    background-image: url(./Assets/background/pexels-jan-kopřiva-3634855.jpg); 
     /* filter: grayscale(100%); */
     background-size: 100%;
-    background-position-y: 38%;
+    /* background-position: bottom; */
+    background-position-y: 55%;
     background-repeat: no-repeat;
     color: slategray;
     /*filter: opacity(0);*/
